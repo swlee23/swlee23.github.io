@@ -93,3 +93,43 @@
 .up i {
   color: #272727;
 }
+
+/* Global Back-to-top Button */
+.floating-back-to-top i {
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  color: $light-grey;
+  margin: 1rem 0 $default-font-size;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.floating-dark-mode i {
+  position: fixed;
+  right: 30px;
+  top: 15px;
+  color: $light-grey;
+  margin: 1rem 0 $default-font-size;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.floating-lang-switch i {
+  position: fixed;
+  right: 100px;
+  top: 15px;
+  color: $light-grey;
+  margin: 1rem 0 $default-font-size;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
