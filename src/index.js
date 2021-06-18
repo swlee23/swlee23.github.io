@@ -1,5 +1,6 @@
 import initTilt from "./js/tilt";
 import initSr from "./js/sr";
+import initTheme from "./js/dark-mode-switch.min";
 import resume from "./assets/sungwoolee-resume.pdf";
 
 import "./style/main.scss";
@@ -26,6 +27,7 @@ function addResume(pdf) {
 
 initSr();
 initTilt();
+initTheme();
 
 // uncomment this if you want to attach your resume
 addResume(resume);
