@@ -1,8 +1,7 @@
-import initTilt from "./js/tilt";
+//import initTilt from "./js/tilt";
 import initSr from "./js/sr";
-import initTheme from "./js/dark-mode-switch.min";
+import initTheme from "./js/dark-mode-switch";
 import resume from "./assets/sungwoolee-resume.pdf";
-
 import "./style/main.scss";
 
 $('a[href^="#"]').on("click", function (event) {
@@ -26,7 +25,7 @@ function addResume(pdf) {
 }
 
 initSr();
-initTilt();
+//initTilt();
 initTheme();
 
 // uncomment this if you want to attach your resume
